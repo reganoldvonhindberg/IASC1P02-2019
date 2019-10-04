@@ -1,0 +1,15 @@
+div{
+  background-color: pink;
+}
+
+.aclass{
+  background-color: purple;
+}
+
+p.aclass{
+  background-color: green;
+}
+
+#anID{
+  background-color: red;
+}

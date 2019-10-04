@@ -1,0 +1,19 @@
+.background{
+  background-color: green;
+}
+
+.box{
+  border:black 3px dashed;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 10px;
+}
+p{
+  color: red;
+}
+p + p{
+  color: darkgreen;
+}
+div ~ p{
+	color:purple;
+}

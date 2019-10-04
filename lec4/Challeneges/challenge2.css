@@ -1,0 +1,36 @@
+.box{
+  border:purple 3px dashed;
+  padding-top: 200px;
+  padding-bottom: 10px;
+}
+
+p{
+  text-align: center;
+}
+
+#someText{
+  color: green;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+#moreText{
+  color: orange;
+  text-align: left;
+  font-size: 30px;
+}
+#moreText2{
+  color: red;
+  vertical-align: super;
+}
+
+#cantBelieve{
+  color: purple;
+  text-align: right;
+  font-size: 8px;
+}
+#cantBelieve2{
+  color: yellow;
+  text-transform: uppercase;
+  font-style: italic;
+}
