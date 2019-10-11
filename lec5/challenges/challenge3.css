@@ -1,0 +1,47 @@
+body{
+	color:black;
+	background-color:black;
+	text-align: left;
+}
+
+
+#wrapper{
+	width:750px;
+	margin:0 auto;
+	background-color:white;
+
+}
+
+#blank{
+	height: 5px;
+	background-color: white;
+}
+
+#backdrop{
+	height:500px;
+	background-color: green;
+	margin: 0 5px 0 5px;
+}
+
+#coloum1{
+	float:left;
+	width:  100px;
+	height: 100px;
+	background-color:red;
+	margin: 100px 100px 30px 100px;
+}
+#coloum2{
+	float:right;
+	width:  100px;
+	height: 100px;
+	background-color: blue;
+	margin: 100px 100px 30px 10px;
+}
+
+#coloum3{
+	float:left;
+	width:  100px;
+	height: 100px;
+	background-color: yellow;
+	margin: 300px 10px 30px 10px;
+}
