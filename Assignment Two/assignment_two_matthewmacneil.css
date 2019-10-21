@@ -1,0 +1,52 @@
+h3{
+  font-size: 28px;
+}
+
+p,h1,h2,h3{
+  font-family: Arial, sans-serif;
+}
+
+.familyChange p{
+  font-family: Times, serif;
+}
+
+.familyChange h3{
+  font-family: Times, serif;
+}
+
+.caseChange{
+  text-transform: uppercase;
+}
+
+#colourChange{
+  background-color: red;
+  color: white;
+}
+
+#sizeChange{
+  font-size: 22px;
+}
+
+#fixed{
+  position: fixed;
+  top: 0px;
+  right: 0px;
+}
+
+#absoluteBox{
+  position: absolute;
+  top: 1750px;
+  left: 10px;
+  background-color: blue;
+  color: white;
+  width: 500px;
+  height: 100px;
+  margin: 10px 0px 50px 30px;
+  padding: 10px 0px 0px 20px;
+  border: 5px solid black;
+}
+
+#relative{
+  position: relative;
+  left: 400px;
+}
