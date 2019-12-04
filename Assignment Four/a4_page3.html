@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<title>Basic Page with CSS + Javascript</title>
+	<link href="a4_page3.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="a4_page3.js"></script>
+</head>
+
+<body>
+
+	<div id="wrapper">
+
+	<div id="header">
+		<h2 id="headerText">My Account</h2>
+		<div id="headBox1" style="cursor: pointer;" onclick="window.location='a4_page1.html'"> <p>Home</p> </div>
+	  <div id="headBox2" style="cursor: pointer;" onclick="window.location='a4_page2.html'"> <p>About Us</p> </div>
+	  <div id="headBox3" style="cursor: pointer;" onclick="window.location='a4_page3.html'"> <p>Services</p> </div>
+	</div>
+		<hr />
+	<div id="body">
+		<form name="myForm" action="">
+			<p>Username</p>
+			<input type="text" name="textInput" id="textInput"/>
+			<p>Password</p>
+			<input type="password" name="passInput" id="passInput" />
+			<br/><br/>
+			<span onmouseover="moveButton()"><button id="enterButton" type="reset" onclick="formOutputs()">Enter</button></span>
+
+		</form>
+	</div>
+
+	<div id="bottom">
+	  <hr />
+		<h3 class="footerText" style="cursor: pointer;" onclick="window.location='a4_page2.html'">About Us</h3>
+	  <h3 id="footerText2" class="footerText" style="cursor: pointer;" onclick="window.location='a4_page2.html'" onmouseover="changeText1()">My Account</h3>
+	  <h3 id="footerText3" class="footerText" style="cursor: pointer;" onclick="window.location='a4_page2.html'" onmouseover="changeText2()">Contact Us</h3>
+	  <h3 id="footerText4" class="footerText" style="cursor: pointer;" onclick="window.location='a4_page3.html'" onmouseover="changeText3()">Services</h3>
+	</div>
+
+	</div>
+
+</body>
+
+</html>

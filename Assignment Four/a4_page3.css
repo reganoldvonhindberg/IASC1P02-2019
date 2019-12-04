@@ -1,0 +1,45 @@
+#wrapper{
+	width:1000px;
+	margin:0px auto;
+	background-color:white;
+}
+
+#header{
+	height:60px;
+}
+#headerText{
+  float: left;
+}
+#headBox1{
+  float:left;
+  height: 50px;
+  width: 100px;
+  border: solid 2px;
+  text-align:center;
+  position: absolute;
+  margin-left: 650px;
+}
+#headBox2{
+	float:left;
+  height: 50px;
+  width: 100px;
+  border: solid 2px;
+  text-align:center;
+  position: absolute;
+  margin-left: 775px;
+}
+#headBox3{
+	float:left;
+  height: 50px;
+  width: 100px;
+  border: solid 2px;
+  text-align:center;
+  position: absolute;
+  margin-left: 900px;
+}
+
+
+.footerText{
+  float: left;
+  margin-left: 135px;
+}

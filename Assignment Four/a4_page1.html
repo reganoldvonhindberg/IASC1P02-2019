@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<title>Basic Page with CSS + Javascript</title>
+	<link href="a4_page1.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="a4_page1.js"></script>
+</head>
+
+<body>
+
+	<div id="wrapper">
+
+	<div id="header">
+		<h2 id="headerText">WELCOME TO STN.CA</h2>
+	  <div id="headBox1" style="cursor: pointer;" onclick="window.location='a4_page1.html'"> <p>Home</p> </div>
+	  <div id="headBox2" style="cursor: pointer;" onclick="window.location='a4_page2.html'"> <p>About Us</p> </div>
+	  <div id="headBox3" style="cursor: pointer;" onclick="window.location='a4_page3.html'"> <p>Services</p> </div>
+	</div>
+		<hr />
+	<div id="body">
+		<div id="socialBox">
+			<h3 class="socialText">Follow STN</h3>
+			<hr />
+			<img class="icons" src="Images/facebook_circle.png" alt="facebook"/>
+			<img class="icons" src="Images/twitter_circle.png" alt="twitter"/>
+			<img class="icons" src="Images/youtube_circle.png" alt="youtube"/>
+			<img class="icons" src="Images/instagram_circle.png" alt="instagram"/>
+			<img class="icons" src="Images/reddit_circle.png" alt="reddot"/>
+		</div>
+		<div id="subscribeBox">
+			<h3 class="socialText">GET THE SNT NEWSLETTER</h3>
+			<hr />
+			<p class="socialText">Enter your email address to gain instant notifications about news stories that you missed</p>
+			<input type="text" name="textInput" id="textInput" value="" class="socialText"/>
+			<button type="button" onclick="buttonClick()">Subscribe</button>
+		</div>
+		<div id="newsBox1">
+	    <img id="photoOne" src="Images/bridge_jungle.jpg" alt="its a bridge"/>
+			<h4>Breaking News!</h4>
+			<h3>Experts say that this jungle bridge is too safe!</h3>
+			<p>What's the point of a bridge that doesn't offer a little danger? The whole point of walking through the jungle is the thought of getting mauled by a tiger. Expect this bridge as handrails and is suspended in the air. Experts say that these kinds of bridge change the ways in which we think. If a human being is presented with a safe environment than that person will become accused to not getting mauled by a tiger. </p>
+	  </div>
+		<div id="newsBox2">
+	    <img id="photoTwo" src="Images/roads.jpg" alt="its a road"/>
+			<h4>Unknown Facts</h4>
+			<h3>You're more likely to get into a car crash if you drive on a road</h3>
+			<p>Bet you never thought of this one. Yes even in your metal machine of death you are still more likely to get into a car crash driving on a road rather than driving on the sidewalk. As statistics show, cars are most often found on roads. It is unknown who builds these roads to be with, most people have pointed to an extinct animal race that died off 3 thousand years ago. While this theory holds the most amount of leverage in the scientific community, a guy in West Virginia believes that the government just hires people to build the roads. This man was later seen getting arrested...</p>
+	  </div>
+		<div id="newsBox3">
+			<img id="photoThree" src="Images/seal_upsidedown.jpg" alt="its a dolphin i think"/>
+			<h4>Nature</h4>
+			<h3>This Seal is absolutly adorable</h3>
+			<p>This is the result of... oh my this absolutly adorable. Just look at him. Look at this dude. Look at him. He's so cute. Look at the top of his head. OMG THERE'S A SECOND ONE BELOW HIM :O I mean. This is the result of years of genetic cloning to create the most perfect seal. After 55 years of research, the team at Harvard University determined that if they just took a regular seal and turned it upside it could create a similar reaction to people looking at cat photos.</p>
+	  </div>
+	</div>
+
+	<div id="bottom">
+	  <hr />
+	  <h3 class="footerText" style="cursor: pointer;" onclick="window.location='a4_page2.html'">About Us</h3>
+	  <h3 id="footerText2" class="footerText" style="cursor: pointer;" onclick="window.location='a4_page2.html'" onmouseover="changeText1()">My Account</h3>
+	  <h3 id="footerText3" class="footerText" style="cursor: pointer;" onclick="window.location='a4_page2.html'" onmouseover="changeText2()">Contact Us</h3>
+	  <h3 id="footerText4" class="footerText" style="cursor: pointer;" onclick="window.location='a4_page3.html'" onmouseover="changeText3()">Services</h3>
+	</div>
+
+	</div>
+
+</body>
+
+</html>
